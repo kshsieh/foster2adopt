@@ -13,7 +13,6 @@ gem 'sass-rails', 						'~> 4.0.0'
 gem "anjlab-bootstrap-rails", require: 'bootstrap-rails'
 															"~> 3.0.3.0"
 
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', 							'>= 1.3.0'
 
@@ -25,7 +24,8 @@ gem 'therubyracer', platforms: :ruby
 
 # CLASS
 gem 'friendly_id',            github: 'norman/friendly_id'
-gem 'squeel',                 '1.1.1'      
+gem 'squeel',                 '1.1.1'
+gem 'devise', 								'~> 3.2.2'
 
 # CONTROLLER
 gem 'kaminari',								'~> 0.14.1'
