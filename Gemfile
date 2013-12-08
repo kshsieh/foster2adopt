@@ -19,13 +19,13 @@ gem 'uglifier', 							'>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', 					'~> 4.0.0'
 gem 'jquery-rails'
-
-gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', 					platforms: :ruby
 
 # CLASS
-gem 'friendly_id',            github: 'norman/friendly_id'
+gem 'friendly_id', 						'~> 5.0.0'
 gem 'squeel',                 '1.1.1'
 gem 'devise', 								'~> 3.2.2'
+gem "bcrypt-ruby", 						:require => "bcrypt"
 
 # CONTROLLER
 gem 'kaminari',								'~> 0.14.1'
