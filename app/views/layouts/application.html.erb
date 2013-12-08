@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Foster2adopt</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+	  <title>foster2adopt</title>
+	  <%= favicon_link_tag image_path("logo/favicon.ico") %>
+	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	  <%= csrf_meta_tags %>
+	</head>
 
-<%= yield %>
+	<%= body_tag %>
+		<%= render 'pages/header' %>
 
-</body>
+		<%= yield %>
+		
+		<%= render 'pages/footer' %>
+	</body>
 </html>

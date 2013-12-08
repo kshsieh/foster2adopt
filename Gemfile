@@ -45,7 +45,6 @@ group :development, :test do
 end
 
 group :development do
-	gem "better_errors"
 	gem 'sextant',              '~> 0.2.3'
 	gem 'capistrano',					  '~> 3.0.1'
 end
